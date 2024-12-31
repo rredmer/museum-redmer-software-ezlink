@@ -1,0 +1,387 @@
+[Root]
+Most Recent Package=EZ-LINK Setup 2.00 r 001
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Dev\ezLink\Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\Program Files\Microsoft Office\Office\MSACC8.OLB=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Dev\ezLink\Source\EZLINK.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\COMCTL32.OCX=Yes
+C:\WINNT\system32\MSCOMM32.OCX=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\DBLIST32.OCX=Yes
+E:\Program Files\Microsoft Office\Office\MSACC8.OLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=Yes
+C:\WINNT\system32\msjet35.dll=Yes
+C:\WINNT\system32\msjter35.dll=Yes
+C:\WINNT\system32\msjint35.dll=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\msrd2x35.dll=Yes
+C:\WINNT\system32\msrepl35.dll=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\COMCT232.OCX=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Dev\ezLink\Source\EZLINK.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Office\Office\MSACC8.OLB=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl35.dll=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Dev\ezLink\Source\EZLINK.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=RSC EZ-LINK
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=RSC EZ-LINK
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|RSC EZ-LINK]
+Icon1=EZLINK.exe
+Title1=RSC EZ-LINK
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Dev\ezLink\Setup
+ProjectFolder=D:\Dev\ezLink\Source
+ServerSideCab=
+File1=D:\Dev\ezLink\Setup\setup.exe
+File2=D:\Dev\ezLink\Setup\Setup.Lst
+File3=D:\Dev\ezLink\Setup\EZLINK.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\RSC\Dev\ezLink\Setup
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+F:\Program Files\Microsoft Office\Office\MSACC9.OLB=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+F:\RSC\Dev\ezLink\Source\EZLINK.MDB=
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+F:\RSC\Dev\ezLink\Source\EZLINK.exe=Yes
+F:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\WINNT\system32\COMCTL32.OCX=Yes
+F:\WINNT\system32\MSCOMM32.OCX=Yes
+F:\WINNT\system32\DBGRID32.OCX=Yes
+F:\WINNT\system32\DBLIST32.OCX=Yes
+F:\Program Files\Microsoft Office\Office\MSACC9.OLB=Yes
+F:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+F:\WINNT\system32\msjet35.dll=Yes
+F:\WINNT\system32\msjter35.dll=Yes
+F:\WINNT\system32\msjint35.dll=Yes
+F:\WINNT\system32\VBAJET32.DLL=Yes
+F:\WINNT\system32\expsrv.dll=Yes
+F:\WINNT\system32\msrd2x35.dll=Yes
+F:\WINNT\system32\msrepl35.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+F:\WINNT\system32\VB5DB.DLL=Yes
+F:\WINNT\system32\COMCT232.OCX=Yes
+F:\WINNT\system32\TABCTL32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\WINNT\system32\MSRDO20.DLL=Yes
+F:\WINNT\system32\RDOCURS.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\RSC\Dev\ezLink\Source\EZLINK.MDB=Yes
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+F:\RSC\Dev\ezLink\Source\EZLINK.exe=$(AppPath)
+F:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\COMCTL32.OCX=$(WinSysPath)
+F:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+F:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+F:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Office\Office\MSACC9.OLB=$(WinSysPath)
+F:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+F:\WINNT\system32\msjet35.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\msjter35.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\msjint35.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\msrd2x35.dll=$(WinSysPathSysFile)
+F:\WINNT\system32\msrepl35.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+F:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+F:\WINNT\system32\COMCT232.OCX=$(WinSysPath)
+F:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+F:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+F:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\RSC\Dev\ezLink\Source\EZLINK.MDB=$(AppPath)
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+F:\RSC\Dev\ezLink\Source\EZLINK.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\RSC\Dev\ezLink\Source\EZLINK.MDB=No
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=RSC EZ-LINK
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=F:\RSC\Dev\ezLink\Setup
+ProjectFolder=F:\RSC\Dev\ezLink\Source
+ServerSideCab=
+File1=F:\RSC\Dev\ezLink\Setup\setup.exe
+File2=F:\RSC\Dev\ezLink\Setup\Setup.Lst
+File3=F:\RSC\Dev\ezLink\Setup\EZLINK.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=RSC EZ-LINK
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|RSC EZ-LINK]
+Icon1=EZLINK.exe
+Title1=RSC EZ-LINK
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|EZ-LINK Setup 2.00 r 001|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\RSC\Dev\ezLink\Setup
+
+[Package|EZ-LINK Setup 2.00 r 001|Configure DAO ISAMs]
+Applicable=No
+
+[Package|EZ-LINK Setup 2.00 r 001|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|EZ-LINK Setup 2.00 r 001|Files Found]
+
+[Package|EZ-LINK Setup 2.00 r 001|Files Released]
+
+[Package|EZ-LINK Setup 2.00 r 001|Missing Dependency Information]
+F:\Program Files\Common Files\designer\MSDE.DLL=
+
+[Package|EZ-LINK Setup 2.00 r 001|Out-of-Date Dependency Information]
+
+[Package|EZ-LINK Setup 2.00 r 001|Files Added]
+F:\RSC\Dev\ezLink\Source\ezlink.mdb=
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=
+
+[Package|EZ-LINK Setup 2.00 r 001|Files Removed]
+
+[Package|EZ-LINK Setup 2.00 r 001|Files In Project]
+F:\RSC\Dev\ezLink\Source\EZLINK.exe=Yes
+F:\WINNT\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\Program Files\Common Files\designer\MSDE.DLL=Yes
+F:\WINNT\system32\MSCOMM32.OCX=Yes
+F:\WINNT\system32\MSDATGRD.OCX=Yes
+F:\WINNT\system32\MSSTDFMT.DLL=Yes
+F:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+F:\WINNT\system32\MSDATLST.OCX=Yes
+F:\WINNT\system32\MSBIND.DLL=Yes
+F:\WINNT\system32\MSCOMCTL.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\RSC\Dev\ezLink\Source\ezlink.mdb=Yes
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=Yes
+
+[Package|EZ-LINK Setup 2.00 r 001|Configure Registry Files]
+Applicable=No
+
+[Package|EZ-LINK Setup 2.00 r 001|Configure Remote Servers]
+Applicable=No
+
+[Package|EZ-LINK Setup 2.00 r 001|Install Locations]
+F:\RSC\Dev\ezLink\Source\EZLINK.exe=$(AppPath)
+F:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Common Files\designer\MSDE.DLL=$(WinSysPath)
+F:\WINNT\system32\MSCOMM32.OCX=$(WinSysPath)
+F:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+F:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+F:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+F:\WINNT\system32\MSDATLST.OCX=$(WinSysPath)
+F:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+F:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\RSC\Dev\ezLink\Source\ezlink.mdb=$(AppPath)
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=$(AppPath)
+
+[Package|EZ-LINK Setup 2.00 r 001|Configure Shared Files]
+Applicable=Yes
+F:\RSC\Dev\ezLink\Source\EZLINK.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\RSC\Dev\ezLink\Source\ezlink.mdb=Yes
+F:\RSC\Dev\ezLink\Document\EZLINK_User_Guide_v2.0.pdf=Yes
+
+[Package|EZ-LINK Setup 2.00 r 001|Distribution]
+Type=single
+Size=
+Title=RSC EZ-LINK
+
+[Package|EZ-LINK Setup 2.00 r 001|IconGroups]
+Group0=RSC EZ-LINK
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|EZ-LINK Setup 2.00 r 001|RSC EZ-LINK]
+Icon1=EZLINK.exe
+Title1=RSC EZ-LINK
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|EZ-LINK Setup 2.00 r 001|Package]
+PackageFolder=F:\RSC\Dev\ezLink\Setup
+ProjectFolder=F:\RSC\Dev\ezLink\Source
+ServerSideCab=
+File1=F:\RSC\Dev\ezLink\Setup\setup.exe
+File2=F:\RSC\Dev\ezLink\Setup\Setup.Lst
+File3=F:\RSC\Dev\ezLink\Setup\EZLINK.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
